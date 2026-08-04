@@ -2,7 +2,6 @@
 
 这个 demo 现在改成了 `Langfuse Python SDK + LangChain CallbackHandler` 接入方式，不再使用 `LangSmith OTel`。
 
-最佳实践文档见：[BEST_PRACTICES.md](./BEST_PRACTICES.md)。
 
 它保留了终端多轮对话能力：
 
