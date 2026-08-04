@@ -1,6 +1,8 @@
-# LangChain -> Langfuse Demo
+# LangChain Observability Demo
 
-这个 demo 现在改成了 `Langfuse Python SDK + LangChain CallbackHandler` 接入方式，不再使用 `LangSmith OTel`。
+这个仓库用于演示 `LangChain` 应用如何接入观测能力。
+
+当前已实现的是 `Langfuse Python SDK + LangChain CallbackHandler` 方案，用于把链路上报到 Guance 的 Langfuse 兼容入口；后续可以在同一仓库中继续扩展 `LangSmith` 等其他观测接入方式。
 
 
 它保留了终端多轮对话能力：
