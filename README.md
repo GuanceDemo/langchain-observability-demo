@@ -2,6 +2,8 @@
 
 这个 demo 现在改成了 `Langfuse Python SDK + LangChain CallbackHandler` 接入方式，不再使用 `LangSmith OTel`。
 
+最佳实践文档见：[BEST_PRACTICES.md](./BEST_PRACTICES.md)。
+
 它保留了终端多轮对话能力：
 
 - 连续提问会保留上下文
@@ -17,7 +19,6 @@
 ## 安装
 
 ```bash
-cd /home/liurui/code/langchain-guance-otel-demo
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -72,7 +73,6 @@ OLLAMA_MODEL=qwen3:8b
 ## 运行
 
 ```bash
-cd /home/liurui/code/langchain-guance-otel-demo
 source .venv/bin/activate
 python app.py
 ```
